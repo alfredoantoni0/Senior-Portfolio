@@ -2,3 +2,49 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+body { background-color: #b3daff;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img{
+  width: 800px; 
+  text-align:center;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: fantasy;
+  font-style:italic;
+}
+ /* The navbar container */
+.topnav{
+  overflow: hidden;
+  background-color: white;
+  font-family: Impact;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: flex;
+  color: brown;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  position: relative; left:750px; 
+  
+}
+h1{
+  font-family:  'Kanit', sans-serif;
+  font-size: 40px;
+}
