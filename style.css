@@ -3,7 +3,8 @@ html, body {
   width: 100%;
 }
 
-body { background-color: #b3daff;}
+body { background-color: #b3daff;
+     text-align:center;}
 
 .center {
   display: block;
@@ -18,7 +19,7 @@ img{
 }
 
 .header{
-  background-color: black;
+  background-color: pink;
   color: white;
   padding: 20px;
   text-align: center;
@@ -28,7 +29,7 @@ img{
  /* The navbar container */
 .topnav{
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   font-family: Impact;
 }
 
@@ -36,7 +37,7 @@ img{
 .topnav a {
   float: left;
   display: flex;
-  color: brown;
+  color: pink;
   text-align: center;
   padding: 15px;
   margin: 10px;
@@ -47,4 +48,12 @@ img{
 h1{
   font-family:  'Kanit', sans-serif;
   font-size: 40px;
+}
+
+p{
+ font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align:center;
+  color: black;
+  font-style: oblique;
 }
