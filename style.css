@@ -3,7 +3,7 @@ html, body {
   width: 100%;
 }
 
-body { background-color: #b3daff;
+body { background-color:pink;
      text-align:center;}
 
 .center {
@@ -19,8 +19,8 @@ img{
 }
 
 .header{
-  background-color: pink;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 20px;
   text-align: center;
   font-family: fantasy;
@@ -30,7 +30,7 @@ img{
 .topnav{
   overflow: hidden;
   background-color: black;
-  font-family: Impact;
+  font-family: Tangerine;
 }
 
 /* Navbar links */
@@ -46,10 +46,15 @@ img{
   
 }
 h1{
-  font-family:  'Kanit', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
+  font-style: oblique;
 }
-
+h2{
+ font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-style: oblique;
+}
 p{
  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
@@ -61,11 +66,20 @@ p{
 .pageAlign{
 display: flex;
 justify-content:space-around;
+
 }
 .projectBox { 
 text-align:center;
 margin: 2em 0;
+background-color: #c1bcb6;
+padding: 20px;
 }
 
-.projectsImage{width: 400px; }
+.projectsImage{width: 400px;
+    border: 5px solid black;
+    padding: 10px;}
 
+.projectBox:hover {
+    transform: scale(.5);
+   
+    }
