@@ -31,6 +31,7 @@ img{
   overflow: hidden;
   background-color: black;
   font-family: Tangerine;
+  transition:0.1s;
 }
 
 /* Navbar links */
@@ -43,8 +44,13 @@ img{
   margin: 10px;
   text-decoration: none;
   position: relative; left:750px; 
-  
+  transition:0.1s;
 }
+  .topnav a:hover {
+    border: white solid 2px;
+    transition:0.1s;
+}
+  
 h1{
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
