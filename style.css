@@ -25,6 +25,7 @@ img{
   text-align: center;
   font-family: fantasy;
   font-style:italic;
+  border-radius: 35px;
 }
  /* The navbar container */
 .topnav{
@@ -32,6 +33,7 @@ img{
   background-color: black;
   font-family: Tangerine;
   transition:0.1s;
+  border-radius: 35px;
 }
 
 /* Navbar links */
@@ -45,6 +47,7 @@ img{
   text-decoration: none;
   position: relative; left:750px; 
   transition:0.1s;
+  border-radius: 35px;
 }
   .topnav a:hover {
     border: white solid 2px;
